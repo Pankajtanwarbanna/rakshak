@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 2,
+    "name" : "Rakshak",
+    "version" : "0.1",
+    "description" : "A friendly tool to trace & protect PII (Personally Identifiable Info) on your website",
+    "author" : "Pankaj Tanwar",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "devtools_page" : "html/devtools.html"
+}
