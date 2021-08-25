@@ -1,20 +1,24 @@
 # Rakshak
 
-Rashak - Track & protact PII on your website.
+![Rakshak](logo.png)
 
-Chrome Extension - https://chrome.google.com/webstore/detail/rakshak/bgcklfalfikbieaakdjpjaeehodfhmec
+**Rashak** - Track & protact PII on your website.
 
-A friendly tool to trace & protect PII (Personally Identifiable Info) on your website
+**Chrome Extension** - https://chrome.google.com/webstore/detail/rakshak/bgcklfalfikbieaakdjpjaeehodfhmec
+
+Almost every sales organization, has in-house tools for such as tracking leads etc. It has sensitive PII and mistakenly we expose such imformation in APIs response.
+
+A friendly tool to trace & protect sensitive PII (Personally Identifiable Info) on your website
 Rakshak inspects HTTP requests and parses the response to check if any PII information has been detected. After monitoring, it presents you a beautiful UI showing all the required details. 
 
-Features - 
+**Features** - 
 
 - Parses response of all HTTP requests on the current page
 - Light weight
 - Detect PII such as Mobile Number, Email, Pan Card & Pin Code. 
 - Open source 
 
-### Features
+### Change logs
 
 v0.0.1
 - :heavy_check_mark: Should be able to log & parse all requests
