@@ -78,6 +78,8 @@ function prepareAccordion(alerts) {
 
 // Request Not Already Tracked
 function notAlreadyTracked(alerts, method, url) {
+  return true;
+  // TODO - advance check on body params
   for(let alert of alerts) {
     if(alert.request.method === method && alert.request.url === url) return false;
   }
